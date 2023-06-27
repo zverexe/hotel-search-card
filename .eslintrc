@@ -27,9 +27,7 @@
         "**/?(*.)+(spec|test).[jt]s?(x)"
       ],
       "extends": [
-        "plugin:testing-library/react",
-        "plugin:jest-dom/recommended",
-        "plugin:jest/recommended"
+        "plugin:testing-library/react"
       ]
     }
   ],
