@@ -102,6 +102,11 @@ p {
     display: flex;
     align-items: center;
     margin-bottom: 8px;
+    white-space: nowrap;
+    h3 {
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
   }
   &--image {
     margin-bottom: 16px;
